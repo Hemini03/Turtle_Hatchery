@@ -1,0 +1,106 @@
+.header-img {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(../img/image11.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 40vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: larger;
+}
+
+.section {
+  padding: 1rem 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.graphics {
+  background-image: url(../img/green\ turtle.jpg);
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  background-position: center left;
+}
+
+.graphics2 {
+  background-image: url(../img/image6.jpg);
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  background-position: center left;
+}
+
+.graphics3 {
+  background-image: url(../img/catergory.jpeg);
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  background-position: center left;
+}
+
+.graphics4 {
+  background-image: url(../img/logger.jpg);
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  background-position: center left;
+}
+
+.map-img {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+tr:hover {
+  background-color: #f5f5f5;
+}
+
+td {
+  text-align: left;
+}
+.section1 {
+  margin-top: 100px;
+}
+
+.summary {
+  padding: 100px 0;
+}
+@media (min-width: 900px) {
+  .section {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+
+  .map-img {
+    flex-direction: row;
+    gap: 30px;
+  }
+}

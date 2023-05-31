@@ -1,0 +1,48 @@
+.header-img {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(../img/image17.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 40vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: larger;
+}
+
+.section {
+  padding: 1rem 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.graphics {
+  background-image: url(../img/catergory.jpeg);
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  background-position: center left;
+}
+.map-img {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-width: 900px) {
+  .section {
+    max-width: 1000px;
+    margin: 100px auto;
+  }
+
+  .map-img {
+    flex-direction: row;
+    gap: 30px;
+  }
+}
